@@ -38,6 +38,7 @@ resource "aws_instance" "exercise-1" {
   disable_api_termination = "false"
   vpc_security_group_ids  = ["sg-57e40c2a"]
   count                   = 1
+  BLAH BLAH BLAH
 
   tags {
     Identity = "datapipe-lynx"
