@@ -1,0 +1,14 @@
+# Exercise 2
+
+provider "dnsimple" {
+  token = "myfaketoken"
+  email = "jmeola@outlook.com"
+}
+
+resource "dnsimple_record" "www" {
+  domain = "johnmeola.com"
+  name   = ""
+  value  = "${element(aws_instance.exercise-1.*.public_ip, count.index)}"
+  type   = "A"
+  ttl    = 3600
+}

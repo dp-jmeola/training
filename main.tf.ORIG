@@ -1,0 +1,25 @@
+#
+# DO NOT DELETE THESE LINES!
+#
+# Your subnet ID is:
+#
+#     subnet-3135ea1c
+#
+# Your security group ID is:
+#
+#     sg-57e40c2a
+#
+# Your AMI ID is:
+#
+#     ami-c9580bde
+#
+# Your Identity is:
+#
+#     datapipe-lynx
+#
+
+provider "aws" {
+  access_key = "AKIAIQEBRSK4CHXF6YZQ"
+  secret_key = "8eXozSVY4tePv6+rfYW+xD415eRrsZsOFHgG5rej"
+  region     = "us-east-1"
+}
