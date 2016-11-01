@@ -37,7 +37,7 @@ resource "aws_instance" "exercise-1" {
   subnet_id               = "subnet-3135ea1c"
   disable_api_termination = "false"
   vpc_security_group_ids  = ["sg-57e40c2a"]
-  count                   = 2
+  count                   = 1
 
   tags {
     Identity = "datapipe-lynx"
